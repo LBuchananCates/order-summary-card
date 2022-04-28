@@ -47,6 +47,7 @@ a:hover {
     flex-direction: row;
     background-color: hsl(225, 100%, 98%);
     font-weight: 700;
+    justify-content: center;
 }
 
 span {
