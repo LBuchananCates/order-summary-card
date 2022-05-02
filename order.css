@@ -3,7 +3,6 @@ body {
     background-color: hsl(225, 100%, 94%);
 }
 
-
 .container {
     display: flex;
     flex-direction: column;
@@ -12,22 +11,22 @@ body {
     border-radius: 0px 0px 20px 20px;
 }
 
-.header-image {
+.container .header-image {
     border-radius: 20px 20px 0px 0px;
 }
 
-.content {
+.container .content {
     background-color: white;
-    padding: 0 60px 40px 60px;
+    padding: 0 30px 40px;
     border-radius: 0px 0px 20px 20px;
 }
 
-h1 {
+.container .content .content-header {
     text-align: center;
     font-weight: 900;
 }
 
-p {
+.container .content .content-text {
     font-weight: 500;
     font-size: 16px;
     text-align: center;
@@ -35,32 +34,44 @@ p {
     color: hsl(224, 23%, 55%);
 }
 
-button {
+.plan {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    padding: 5px 0px;
+    border-radius: 15px;
+}
+
+.plan .music-note {
+    object-fit: contain;
+}
+
+.plan .change-plan {
+    color: hsl(223, 47%, 23%);
+}
+
+.plan .change-plan:hover {
+    color: hsl(224, 23%, 55%);
+}
+
+.plan .plan-and-price p {
+    font-weight: 800;
+}
+
+.plan .plan-and-price span {
+    display: block;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.payment,
+.cancel {
     border: none;
     border-radius: 10px;
     line-height: 20px;
     line-height: 40px;
-}
-
-a {
-    color: hsl(223, 47%, 23%)
-}
-
-a:hover {
-    color: hsl(224, 23%, 55%);
-}
-
-.plan {
-    display: flex;
-    flex-direction: row;
-    background-color: hsl(225, 100%, 98%);
-    font-weight: 700;
-    justify-content: center;
-}
-
-span {
-    font-weight: 500;
-    color: hsl(224, 23%, 55%);
 }
 
 .payment {
