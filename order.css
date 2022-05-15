@@ -34,6 +34,14 @@ body {
     color: hsl(224, 23%, 55%);
 }
 
+.container .content .order-buttons {
+    display: flex;
+    flex-direction: column;
+    padding:
+}
+
+.container .content .order-buttons .payment {}
+
 .plan {
     display: flex;
     justify-content: space-evenly;
@@ -78,6 +86,7 @@ body {
     background-color: hsl(223, 47%, 23%);
     font-weight: 700;
     color: white;
+    margin: 25px 0;
 }
 
 .payment:hover {
